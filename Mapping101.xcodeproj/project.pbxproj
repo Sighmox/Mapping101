@@ -14,6 +14,7 @@
 		79C015DE220B43D50004C927 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C015DC220B43D50004C927 /* LaunchScreen.storyboard */; };
 		79C015E9220B43D50004C927 /* Mapping101Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C015E8220B43D50004C927 /* Mapping101Tests.swift */; };
 		79C015F4220B43D50004C927 /* Mapping101UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C015F3220B43D50004C927 /* Mapping101UITests.swift */; };
+		79C01603220B441B0004C927 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C01602220B441B0004C927 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		79C015EF220B43D50004C927 /* Mapping101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mapping101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C015F3220B43D50004C927 /* Mapping101UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapping101UITests.swift; sourceTree = "<group>"; };
 		79C015F5220B43D50004C927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C01602220B441B0004C927 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79C01603220B441B0004C927 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				79C015E7220B43D50004C927 /* Mapping101Tests */,
 				79C015F2220B43D50004C927 /* Mapping101UITests */,
 				79C015D1220B43D10004C927 /* Products */,
+				79C01601220B441B0004C927 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				79C015F5220B43D50004C927 /* Info.plist */,
 			);
 			path = Mapping101UITests;
+			sourceTree = "<group>";
+		};
+		79C01601220B441B0004C927 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79C01602220B441B0004C927 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
